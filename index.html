@@ -17,21 +17,25 @@
         <form action="http://www.w3schools.com/tags/demo_form.asp" method="get">
 
             Name:
-            <input type="text" name="name"><br> E-mail:
-            <input type="email" name="email"><br>
+            <input type="text" name="name" placeholder="name" required><br> E-mail:
+            <input type="email" name="email" placeholder="email" required><br>School:
+            <input type="text" name="school" placeholder="school name" required>
 
             <!--add your own inputs below-->
-
-
-
-
-
-
+    <h3>Select your Gender</h3>      
+    <input type="radio" name="sex" value="male" required> Male<br>
+    <input type="radio" name="sex" value="female" required> Female<br> 
+<br>
+    <input type="checkbox" name="animal-1" value="cat" required>
+    I like cats <br>
+    <input type="checkbox" name="animal-2" value="dog" required>
+    I like dogs <br> 
+   Favorite Food:<input type="text" name="food" placeholder="food" required><br>  
 
 
             <!--add your own inputs above-->
 
-            <input class="blue-button" type="submit" value="Submit">
+     <p><input class="blue-button" type="submit" value="Submit"></p>
         </form>
     </div>
 </body>
